@@ -6,6 +6,7 @@
   I'm sorry but the original documentation and comments in the code were written in Italian. The English version of the documentation has been translated automatically, I do not guarantee its correctness.
 
   ## How to run 
+  To run the algorithm, the OpenCV (cv2) and numpy libraries must be installed
   To execute the algorithm it will be sufficient to move the own images to be processed in the Immagini folder of the project, after which in the main section create an object of the type of the HDRElaborator class, passing it as parameters the names of the images and the number of levels to be processed. Now you just need to call the getHDRImage method (this call is already present in the main). The algorithm will create as a final result the image 'ResultFusion.jpg' in the Immagini folder
   
   
